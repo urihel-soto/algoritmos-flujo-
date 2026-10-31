@@ -1,4 +1,6 @@
-# algoritmos-flujo-grupo=6
+# algoritmos-flujo-grupo-6
+
+Integrantes
 
 Génesis Altagracia de la cruz perozo 
 26-SISN-2-051
