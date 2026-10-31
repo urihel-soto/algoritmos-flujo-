@@ -18,17 +18,17 @@ Este repositorio contiene el desarrollo de dos aplicaciones de consola orientada
 ## Actividad 1: Control de Acceso al Cine
 
 ### Descripción
-Programa de consola diseñado para evaluar de manera interactiva si una persona califica para ingresar al cine y calcular la tarifa correspondiente según su edad y género[cite: 2].
+Programa de consola diseñado para evaluar de manera interactiva si una persona califica para ingresar al cine y calcular la tarifa correspondiente según su edad y género.
 
 ### Temas que se practican
-- Estructuras condicionales (`if`, `else if`)[cite: 2]
-- Estructura de selección múltiple (`switch`)[cite: 2]
-- Bucle repetitivo (`do-while`)[cite: 2]
-- Funciones y manipulación de cadenas (`string`, `ToUpper()`)[cite: 2]
+- Estructuras condicionales (`if`, `else if`).
+- Estructura de selección múltiple (`switch`).
+- Bucle repetitivo (`do-while`).
+- Funciones y manipulación de cadenas (`string`, `ToUpper()`.
 
 ### Requisitos y Proceso
-1. **Lectura de datos:** Se solicita al usuario ingresar su nombre, edad y género (`F` o `M`). Se utiliza el método `.ToUpper()` para estandarizar la comparación del género[cite: 2].
-2. **Función Categoria(int edad):** Evalúa la edad ingresada y retorna una categoría mediante sentencias condicionales: *Niño*, *Adolescente*, *Adulto* o *Adulto mayor*[cite: 2].
+1. **Lectura de datos:** Se solicita al usuario ingresar su nombre, edad y género (`F` o `M`). Se utiliza el método `.ToUpper()` para estandarizar la comparación del género.
+2. **Función Categoria(int edad):** Evalúa la edad ingresada y retorna una categoría mediante sentencias condicionales: *Niño*, *Adolescente*, *Adulto* o *Adulto mayor*.
 3. **Reglas de negocio:**
    - Menores de 18 años no entran.
    - Mujeres entran gratis.
@@ -36,8 +36,8 @@ Programa de consola diseñado para evaluar de manera interactiva si una persona 
 4. **Menú interactivo:** Implementado con un `switch` anidado dentro de un `do-while` con tres opciones principales: 
    1. Registrar
    2. Tarifas
-   3. Salir[cite: 2]
-5. **Reto extra:** Inclusión de una función lógica que recibe tres montos y muestra cuál es el mayor, el menor y el del centro[cite: 2].
+   3. Salir
+5. **Reto extra:** Inclusión de una función lógica que recibe tres montos y muestra cuál es el mayor, el menor y el del centro.
 
 ### Entrada
 - Nombre del usuario (Texto)
@@ -45,34 +45,34 @@ Programa de consola diseñado para evaluar de manera interactiva si una persona 
 - Género (`F` o `M`)
 
 ### Salida
-- Muestra en consola el nombre formateado, la categoría calculada y el estado de la entrada (Ej. *Entrada GRATIS* o monto a pagar)[cite: 2].
-
+- Muestra en consola el nombre formateado, la categoría calculada y el estado de la entrada (Ej. *Entrada GRATIS* o monto a pagar).
+  
 ---
 
 ## Actividad 2: Adivina el Número
 
 ### Descripción
-Juego interactivo de consola donde el usuario debe adivinar un número secreto generado de manera aleatoria entre el 1 y el 50, recibiendo pistas direccionales en cada intento[cite: 2].
+Juego interactivo de consola donde el usuario debe adivinar un número secreto generado de manera aleatoria entre el 1 y el 50, recibiendo pistas direccionales en cada intento.
 
 ### Temas que se practican
-- Bucles y ciclos (`do-while`, `for`, `while`)[cite: 2]
-- Estructuras de control (`if / else`)[cite: 2]
-- Funciones y manipulación de cadenas (`string`, `Substring`, `ToLower`)[cite: 2]
+- Bucles y ciclos (`do-while`, `for`, `while`).
+- Estructuras de control (`if / else`).
+- Funciones y manipulación de cadenas (`string`, `Substring`, `ToLower`).
 
 ### Requisitos y Proceso
-1. **Captura de nombre:** Se pide el nombre del usuario, se muestra en mayúsculas (`ToUpper()`) y se extrae su inicial utilizando `Substring(0, 1)`[cite: 2].
-2. **Generación aleatoria:** El sistema genera un número secreto utilizando `new Random().Next(1, 51)`[cite: 2].
-3. **Validación y pistas (`do-while`):** Se solicitan números continuamente hasta que el usuario acierte, proporcionando pistas textuales como *"Más alto"* o *"Más bajo"* según corresponda[cite: 2].
-4. **Validación de rango:** Función `PedirNumero()` encargada de validar estrictamente que la entrada se mantenga en el rango de 1 a 50[cite: 2].
-5. **Conteo de intentos:** Al ganar, se imprime un asterisco (`*`) por cada intento realizado utilizando un bucle `for`, y se consulta si desea jugar otra vez utilizando un ciclo `while` y `.ToLower()`[cite: 2].
+1. **Captura de nombre:** Se pide el nombre del usuario, se muestra en mayúsculas (`ToUpper()`) y se extrae su inicial utilizando `Substring(0, 1)`.
+2. **Generación aleatoria:** El sistema genera un número secreto utilizando `new Random().Next(1, 51)`.
+3. **Validación y pistas (`do-while`):** Se solicitan números continuamente hasta que el usuario acierte, proporcionando pistas textuales como *"Más alto"* o *"Más bajo"* según corresponda.
+4. **Validación de rango:** Función `PedirNumero()` encargada de validar estrictamente que la entrada se mantenga en el rango de 1 a 50.
+5. **Conteo de intentos:** Al ganar, se imprime un asterisco (`*`) por cada intento realizado utilizando un bucle `for`, y se consulta si desea jugar otra vez utilizando un ciclo `while` y `.ToLower()`.
 
 ### Entrada
 - Nombre del jugador (Texto)
 - Selección de números sucesivos (Enteros del 1 al 50)
-- Opción de continuidad (`s`/`n`)[cite: 2]
+- Opción de continuidad (`s`/`n`).
 
 ### Salida
-- Mensajes de guía (*"Más alto"* / *"Más bajo"*), conteo total de intentos con formato gráfico de asteriscos y confirmación de acierto[cite: 2].
+- Mensajes de guía (*"Más alto"* / *"Más bajo"*), conteo total de intentos con formato gráfico de asteriscos y confirmación de acierto.
 
 ---
 
