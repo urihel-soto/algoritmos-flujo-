@@ -1,4 +1,6 @@
-# Proyecto: Prácticas de Consola en C# (Actividad 1 y Actividad 2)
+# Algoritmos-flujo/
+
+## Proyecto: Prácticas de Consola en C# (Actividad 1 y Actividad 2)
 
 ## Integrantes
 - Génesis Altagracia de la Cruz Perozo (26-SISN-2-051)
