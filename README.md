@@ -1,14 +1,14 @@
-# Algoritmos-flujo/
+# Algoritmos-flujo
 
 ## Proyecto: Prácticas de Consola en C# (Actividad 1 y Actividad 2)
 
-## Integrantes
-- Génesis Altagracia de la Cruz Perozo (26-SISN-2-051)
-- Dalbert Yordani Hernández Alcántara (26-EISN-2-014)
-- Emmanuel Javier Mercedes (26-EISN-2-023)
-- Urihel Soto De Peña (26-EISN-2-032)
-- Yokenddy Amparo Silvestre (26-EISN-2-002)
-- Antoni Ramírez Mercedes (26-EISN-2-019)
+## Integrantes del Equipo
+- **Génesis Altagracia de la Cruz Perozo** | Matrícula: 26-SISN-2-051
+- **Dalbert Yordani Hernández Alcántara** | Matrícula: 26-EISN-2-014
+- **Emmanuel Javier Mercedes** | Matrícula: 26-EISN-2-023
+- **Urihel Soto De Peña** | Matrícula: 26-EISN-2-032
+- **Yokenddy Amparo Silvestre** | Matrícula: 26-EISN-2-002
+- **Antoni Ramírez Mercedes** | Matrícula: 26-EISN-2-019
 
 ---
 
